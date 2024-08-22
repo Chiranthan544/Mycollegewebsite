@@ -1,0 +1,98 @@
+header{
+    display:flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    background-color: black;
+    color:black;
+}
+*{
+    background-color: bisque;
+    font-style: italic;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:black;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    margin:0;
+}
+.menu li{
+    margin:1rem;
+    position:relative;
+}
+.menu a{
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s;
+    display:block;
+}
+.menu a:hover{
+    color:#304152;
+}
+.submenu-content{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0%;
+    background-color: black;
+    z-index:1;
+    list-style:none;
+    padding:10px,0;
+    width:200px;
+    border-radius:5px;
+}
+.submenu:hover .submenu-content{
+    display:block;
+    background-color: #444;
+}
+.submenu-content li{
+    margin:0;
+}
+.submenu-content a{
+    padding:10px 20px;
+    color:aliceblue;
+}
+.submenu-content a:hover{
+    background-color:black;
+}
+main{
+    padding:2rem;
+    margin:20px;
+    border-radius:5px;
+    box-shadow:0 0 0 10px rgba(0,0,0,0.1);
+}
+.college-info{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+footer{
+    text-align:center;
+    font-size: 20px;
+    font-style: italic;
+}
+.social-links{
+    background-color:solid black;
+}
+#d{
+    height:150px;
+    width:150px;
+    display:flex;
+}
+#c{
+    color:aliceblue;
+    background-color: black;
+}
